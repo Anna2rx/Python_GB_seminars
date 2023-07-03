@@ -8,7 +8,6 @@ set2 = {int(input(f"Введите элемент №{i + 1} 2-го множес
 set3 = set1 & set2
 # set3 = set1.intersection(set2) - создается новое множество set3 с пересечением set1 & set2
 # set1.intersection_update(set2) - пересечение множеств кладется в set1
-
 print(*sorted(set3))
 
 print("---------------------------------")
